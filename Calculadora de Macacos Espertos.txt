@@ -1,0 +1,23 @@
+var n1,n2,o,r;
+n1=Number(prompt("Digite o primeiro numero: "));
+o=prompt("Digite a operação: ");
+n2=Number(prompt("Digite o segundo numero"));
+if (o=="+") {
+    r=n1+n2
+}
+if (o=="-") {
+    r=n1-n2
+}
+if (o=="*") {
+    r=n1*n2
+}
+if (o=="/") {
+    r=n1/n2
+}
+if (o=="mod") {
+    r=n1%n2
+}
+if (o=="**") {
+    r=n1**n2
+}
+alert("Macacos dão " + r);
